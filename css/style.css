@@ -97,7 +97,7 @@ section {
 h1{
     font-size: 3em;
     font-weight: 700;
-    font-family: "montserrat" sans sans-serif;
+    font-family: "montserrat" sans-serif;
     padding-top: 6rem;
 }
 
@@ -335,6 +335,11 @@ footer ul li a:hover {
         padding: 0.5rem;
         font-size: 1.6rem;
         transition: all .5s ease-in-out;
+    }
+
+    .navbar__logo{
+        height: 50px;
+        width: 60px;
     }
 
     .navbar__link > a:hover{
