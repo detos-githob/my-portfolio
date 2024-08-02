@@ -19,6 +19,7 @@
     outline: none;
     margin: 0px;
     padding: 0px;
+    font-family: "poppins" sans-serif;
 }
 
 ul{
@@ -37,6 +38,8 @@ ul{
     z-index: 9999;
     position: fixed;
     width: 100%;
+    font-family: "poppins" sans-serif;
+    font-size: 30px;
 }
 .navbar__links{
     display: flex;
@@ -54,7 +57,7 @@ ul{
 .navbar__link > a{
     text-decoration: none;
     color: #2a2774;
-    font-family: "poppins" sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .burger{
     display: none;
@@ -78,7 +81,7 @@ ul{
 section {
     padding: 2rem 2rem;
     text-align: center;
-    font-family: "poppins" sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 .home1{
