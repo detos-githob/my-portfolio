@@ -128,10 +128,18 @@ h1{
     border-radius: 50%;
     margin-top: 1rem;
 }
+
+#about h2 {
+    font-size: 2.2em;
+    font-family: "montserrat" sans-serif;
+    font-weight: 600;
+    color: #2a2774;
+    padding-bottom: 1.2em;
+}
 .section2 p{
     font-size: 1.5em;
 }
-h2{
+.section2 h2{
     font-size: 2.2em;
     font-family: "montserrat" sans-serif;
     font-weight: 600;
@@ -139,7 +147,7 @@ h2{
     padding-bottom: 1.2em;
 }
 
-h3{
+.section2 h3{
     font-size: 1.8em;
     font-family: "montserrat" sans-serif;
     font-weight: 500;
@@ -155,6 +163,54 @@ h3{
     font-size: 1.5em;
 }
 
+#projets h2 {
+    font-size: 2.2em;
+    font-family: "montserrat" sans-serif;
+    font-weight: 600;
+    color: #2a2774;
+    padding-bottom: 1.2em;
+}
+
+.mes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.mes h3{
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+    font-weight: 500px;
+}
+
+.mes h2{
+    font-size: 2.2rem;
+}
+
+.section2 .dev{
+    padding-top: 1.5rem;
+}
+
+#skills{
+    background-color: #1A3557;
+    color: #fff;
+}
+
+#skills .compétence{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#skills .compétence h2{
+    color: #FFF;
+    font-size: 2rem;
+}
+
 .div .button{
     display: inline-block;
     margin-top: 2.5rem;
@@ -165,15 +221,63 @@ h3{
     border-radius: 30px;
 }
 
+#skills h2{
+    font-size: 2.2em;
+    font-family: "montserrat" sans-serif;
+    font-weight: 600;
+    color: #FFF;
+    padding-bottom: 1.2em;
+}
+
+#skills h3{
+    font-size: 1.8rem;
+    font-weight: 500px;
+   padding-bottom: 1rem;
+}
+
 .div .button:hover{
     background-color: #2a2774;
     box-shadow: 0px 4px 4px #e12026;
+    padding: 1rem 1rem;
+}
+
+.autres h2{
+    font-size: 2.2rem;
+    color: #fff;
+}
+ .autres{
+    background-color: #1A3557;
+}
+
+
+#blog{
+    background-color: #1A3557;
+}
+#blog h2{
+    font-size: 2.2rem;
+    color: #FFF;
+}
+
+#blog h3{
+    font-size: 1.8rem;
+    color: #FFF;
+    
 }
 
 #blog p{
     font-size: 1.5em;
+    color: #FFF;
 }
 
+#contact h2{
+    font-size: 2.2rem;
+    color: #2a2774;
+}
+
+#contact h3{
+    font-size: 1.8rem;
+    color: #2a2774;
+}
 #contact p{
     font-size: 1.5em;
 }
@@ -194,7 +298,7 @@ h3{
 
 .project .button, .blog-post .button {
     display: inline-block;
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
     padding: 0.5rem 1rem;
     background: #fa8800;
     color: #fff;
@@ -205,15 +309,30 @@ h3{
 .project .button:hover{
     background-color: #2a2774;
     box-shadow: 0px 4px 4px #e12026;
+    padding: 1rem 1rem;
 }
 .blog-post .button:hover{
     background-color: #2a2774;
     box-shadow: 0px 4px 4px #e12026;
 }
 
+#blog .post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+ol li{
+    text-align: left;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
 .div .bas, .div .jo, .div .sego,.div .denis, .div .baud{
     display: flex;
     justify-content: space-between;
+    padding-top: 2rem;
 }
 
 .div img{
@@ -272,10 +391,12 @@ form button {
     border: none;
     cursor: pointer;
     border-radius: 30px;
+
 }
 
 form button:hover {
     background: #2a2774;
+    box-shadow: 0px 4px 4px #e12026;
 }
 
 footer {
@@ -459,6 +580,32 @@ footer ul li a:hover {
         width: 90%;
     }
 
+    ul li, p{
+        font-size: 1.2rem;
+    }
+
+    #skills .compétence{
+       flex-direction: column;
+       text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        gap: 30px;
+    }
+
+   #skills h2{
+        font-size: 1.8rem;
+    }
+
+    #skills h3{
+        font-size: 1.5rem;
+    }
+
+    .mes{
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
     .section2 img{
         width: 100%;
     }
@@ -467,6 +614,16 @@ footer ul li a:hover {
         align-items: center;
         gap: 2rem;
         
+    }
+
+    #blog .post{
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    ol li{
+        font-size: 1.2rem;
     }
 
 
