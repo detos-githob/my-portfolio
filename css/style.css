@@ -332,6 +332,10 @@ h1{
 
 }
 
+#blog .post img{
+    width: 600px;
+}
+
 
 ol li{
     text-align: left;
