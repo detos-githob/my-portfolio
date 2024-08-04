@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -19,7 +21,7 @@
     outline: none;
     margin: 0px;
     padding: 0px;
-    font-family: "poppins" sans-serif;
+    font-family: "poppins", sans-serif;
 }
 
 ul{
@@ -38,7 +40,7 @@ ul{
     z-index: 9999;
     position: fixed;
     width: 100%;
-    font-family: "poppins" sans-serif;
+    font-family: "poppins", sans-serif;
     font-size: 20px;
 }
 .navbar__links{
@@ -57,7 +59,7 @@ ul{
 .navbar__link > a{
     text-decoration: none;
     color: #2a2774;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "poppins", sans-serif;
 }
 .burger{
     display: none;
@@ -81,7 +83,7 @@ ul{
 section {
     padding: 2rem 2rem;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "poppins", sans-serif;
 
 }
 .home1{
@@ -100,7 +102,7 @@ section {
 h1{
     font-size: 3em;
     font-weight: 700;
-    font-family: "montserrat" sans-serif;
+    font-family: "montserrat", sans-serif;
     padding-top: 6rem;
 }
 
@@ -131,7 +133,7 @@ h1{
 
 #about h2 {
     font-size: 2.2em;
-    font-family: "montserrat" sans-serif;
+    font-family: "montserrat", sans-serif;
     font-weight: 600;
     color: #2a2774;
     padding-bottom: 1.2em;
@@ -141,7 +143,7 @@ h1{
 }
 .section2 h2{
     font-size: 2.2em;
-    font-family: "montserrat" sans-serif;
+    font-family: "montserrat", sans-serif;
     font-weight: 600;
     color: #2a2774;
     padding-bottom: 1.2em;
@@ -149,7 +151,7 @@ h1{
 
 .section2 h3{
     font-size: 1.8em;
-    font-family: "montserrat" sans-serif;
+    font-family: "montserrat", sans-serif;
     font-weight: 500;
     color: #2a2774;
     padding-bottom: 1em;
@@ -165,7 +167,7 @@ h1{
 
 #projets h2 {
     font-size: 2.2em;
-    font-family: "montserrat" sans-serif;
+    font-family: "montserrat", sans-serif;
     font-weight: 600;
     color: #2a2774;
     padding-bottom: 1.2em;
@@ -223,7 +225,7 @@ h1{
 
 #skills h2{
     font-size: 2.2em;
-    font-family: "montserrat" sans-serif;
+    font-family: "montserrat", sans-serif;
     font-weight: 600;
     color: #FFF;
     padding-bottom: 1.2em;
@@ -256,6 +258,7 @@ h1{
 #blog h2{
     font-size: 2.2rem;
     color: #FFF;
+    padding-bottom: 1.5rem;
 }
 
 #blog h3{
@@ -323,10 +326,18 @@ h1{
     padding-left: 2rem;
 }
 
+#blog .post p{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+
+}
+
+
 ol li{
     text-align: left;
     color: #fff;
     font-size: 1.5rem;
+    padding-bottom: 10px;
 }
 
 .div .bas, .div .jo, .div .sego,.div .denis, .div .baud{
@@ -405,6 +416,7 @@ footer {
     color: #fff;
     padding: 1rem 0;
     text-align: center;
+    font-family: "poppins", sans-serif;
 }
 
 footer ul {
@@ -438,7 +450,7 @@ footer ul li a:hover {
 
 /* debut style media query */
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 500px) {
 
     .navbar__link:hover > a::after{
         display: none;
